@@ -1,0 +1,291 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/*main table*/
+
+#tbl-1{
+    margin:auto;
+    margin-top:3rem;
+    
+}
+ #tbl-1 tr td{
+
+    /*border:1px solid black;*/
+
+    
+   }
+
+
+/*tbl-2 cells*/
+
+/*separates columns*/
+.tbl-2{border-spacing: 15px 5px; }
+
+.tbl-2 tr td {
+/*border:1px solid black;*/
+width:150px;
+height:30px;
+}
+
+
+
+
+/*tbl-2 input*/
+.tbl-2 input:focus{
+outline: none;
+
+}
+/*!!!!!!!!!!!!!!!!!!!*/
+.tbl-2 input{border:none;overflow: hidden;position: relative; z-index: 2;  }
+   
+
+#text{
+   overflow-y: hidden;
+resize: none;
+    border:none;
+      position:relative;
+      z-index:2;
+     height:29px;
+     width:100%;
+     
+     outline:none;
+   word-wrap: break-word;
+     overflow:hidden;
+     font-family:'Roboto';
+     color : rgb(218,240,253);
+    
+     background-color: inherit;
+
+   } 
+
+
+
+  .t-1 textarea{top:6px;}
+  .t-2 textarea{top:3px;}
+  .t-4 textarea{ bottom:2px;}
+ 
+
+.img-container{
+display:flex;
+justify-content: center;
+}
+.img-container img{
+width:85%;
+height:85%;
+/*margin-left:55%;*/
+
+}
+/*resizes column for iconsde*/
+.image-td{
+    width:150px;
+   
+}
+
+
+
+.imgtd-0{background-color: rgb(228, 242, 250); }
+.imgtd-1{background-color: rgb(231,247,253);}
+.imgtd-2{background-color: rgb(227,243,241);}
+.imgtd-3{background-color: rgb(243, 244, 244);}
+/*.imgtd-0 .img-container{
+
+}*/
+/*entity*/
+
+
+
+.row4{
+ 
+    background-color:rgb(211, 212, 212);
+}
+
+.row3{
+background-color: rgb(144, 208, 201);
+
+}
+.row2{background-color: rgb(153, 221, 246);}
+
+.row1{background-color: rgb(135, 199,232);}
+
+
+/*column headings*/
+#heading{
+    position:absolute;
+   width:150px;
+   height:40px;
+  
+   border: 1px solid rgb(244, 244, 244);
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   top: 10px;
+   background-color: rgb(244, 244, 244);
+
+}
+#heading p{
+   position: relative;
+  font-family: 'Roboto',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+   top:8px;
+}
+
+
+
+
+
+
+/*arrows*/
+.arrow-1{
+position:absolute;
+top:58px;
+height:29px;
+width:785px;
+/* linear-gradient(-135deg,transparent 15px,red 0 50%, blue 50%)top right,linear-gradient(-45deg,transparent 15px, blue 0)bottom right;*/
+background: linear-gradient(-135deg,transparent 15px,rgb(0,137,211) 0 25%,rgb(0,155,244)100% )top right,linear-gradient(-45deg,transparent 15px, rgb(0,137,211) 0 25%,rgb(0,155,244)100%)bottom right;
+
+background-size: 100% 50%;
+background-repeat: no-repeat;
+
+z-index: 1;
+}
+
+
+.arrow-2{
+    position:absolute;
+    top:93px;
+    height:29px;
+    width:550px;
+    background: linear-gradient(-135deg,transparent 15px,rgb(0,137,211) 0 25%,rgb(0,155,244)100%)top right,linear-gradient(-45deg,transparent 15px,rgb(0,137,211) 0 25%,rgb(0,155,244)100%)bottom right;
+background-size: 100% 50%;
+background-repeat: no-repeat;
+
+        z-index: 1;
+    }
+
+.arrow-3{
+       position:absolute;
+    top:128px;
+       height:29px;
+     width:714px;
+     background: linear-gradient(-135deg,transparent 15px,rgb(0,137,211) 0 25%,rgb(0,155,244)100%)top right,linear-gradient(-45deg,transparent 15px,rgb(0,137,211) 0 25%,rgb(0,155,244)100%)bottom right;
+     background-size: 100% 50%;
+     background-repeat: no-repeat;
+     
+          z-index: 1;
+        }
+
+
+        .arrow-4{
+            position:absolute;
+         top:164px;
+            height:29px;
+          width:550px;
+          background: linear-gradient(-135deg,transparent 15px,rgb(0,137,211) 0 25%,rgb(0,155,244)100%)top right,linear-gradient(-45deg,transparent 15px,rgb(0,137,211) 0 25%,rgb(0,155,244)100%)bottom right;
+          background-size: 100% 50%;
+          background-repeat: no-repeat;
+          
+               z-index: 1;
+             }        
+
+
+             .arrow-5{
+                position:absolute;
+                /*205*/
+             top:210px;
+                height:29px;
+              width:583px;
+              background: linear-gradient(-135deg,transparent 15px,rgb(16,168,223) 0 25%,rgb(139,183,235)100%)top right,linear-gradient(-45deg,transparent 15px,rgb(16,168,223) 0 25%,rgb(139,183,235)100%)bottom right;
+              background-size: 100% 50%;
+              background-repeat: no-repeat;
+              
+                   z-index: 1;
+                 }                     
+
+                 .arrow-6{
+                    position:absolute;
+                    /*239*/
+                 top:246px;
+                    height:29px;
+                  width:500px;
+                  background: linear-gradient(-135deg,transparent 15px,rgb(16,168,223) 0 25%,rgb(139,183,235)100%)top right,linear-gradient(-45deg,transparent 15px,rgb(16,168,223) 0 25%,rgb(139,183,235)100%)bottom right;
+                  background-size: 100% 50%;
+                  background-repeat: no-repeat;
+                  
+                       z-index: 1;
+                     }   
+                     
+                     .arrow-7{
+                        position:absolute;
+                        /*274*/
+                     top:284px;
+                        height:29px;
+                      width:500px;
+                      background: linear-gradient(-135deg,transparent 15px,rgb(16,168,223) 0 25%,rgb(139,183,235)100%)top right,linear-gradient(-45deg,transparent 15px,rgb(16,168,223) 0 25%,rgb(139,183,235)100%)bottom right;
+                      background-size: 100% 50%;
+                      background-repeat: no-repeat;
+                      
+                           z-index: 1;
+                         }     
+                         
+                         
+                         .arrow-8{
+                            position:absolute;
+                            /*315*/
+                         top:329px;
+                            height:29px;
+                          width:550px;
+                          background: linear-gradient(-135deg,transparent 15px,rgb(19,159,145) 0 25%,rgb(2,176,145)100%)top right,linear-gradient(-45deg,transparent 15px,rgb(19,159,145) 0 25%,rgb(2,176,145)100%)bottom right;
+                          background-size: 100% 50%;
+                          background-repeat: no-repeat;
+                          
+                               z-index: 1;
+                             }                    
+
+
+                             .arrow-9{
+                                position:absolute;
+                                /*350*/
+                             top:366px;
+                                height:29px;
+                              width:480px;
+                              background: linear-gradient(-135deg,transparent 15px,rgb(19,159,145) 0 25%,rgb(2,176,145)100%)top right,linear-gradient(-45deg,transparent 15px,rgb(19,159,145) 0 25%,rgb(2,176,145)100%)bottom right;
+                              background-size: 100% 50%;
+                              background-repeat: no-repeat;
+                              
+                                   z-index: 1;
+                                 }                   
+
+                            
+                                 
+
+
+                                 .arrow-10{
+                                    position:absolute;
+                                    /*393*/
+                                 top:410px;
+                                    height:29px;
+                                  width:520px;
+                                  background: linear-gradient(-135deg,transparent 15px,rgb(118,119,120) 0 25%,rgb(166,166,166)100%)top right,linear-gradient(-45deg,transparent 15px,rgb(118,119,120) 0 25%,rgb(166,166,166)100%)bottom right;
+                                  background-size: 100% 50%;
+                                  background-repeat: no-repeat;
+                                  
+                                       z-index: 1;
+                                     }                    
+
+
+
+                                     .arrow-11{
+                                        position:absolute;
+                                        /*429*/
+                                     top:448px;
+                                        height:29px;
+                                      width:520px;
+                                      background: linear-gradient(-135deg,transparent 15px,rgb(118,119,120) 0 25%,rgb(166,166,166)100%)top right,linear-gradient(-45deg,transparent 15px,rgb(118,119,120) 0 25%,rgb(166,166,166)100%)bottom right;
+                                     background-size: 100% 50%;
+                                     background-repeat: no-repeat;
+
+                                           z-index: 1;
+                                         }                     
